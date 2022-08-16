@@ -1,0 +1,428 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'vanitygen.obj', needed by 'vanitygen++.exe'.  Stop.
+
+# GNU Make 4.3
+This program is built by Equation Solution <http://www.Equation.com>.
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Aug 17 00:39:54 2022
+
+# Variables
+
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# environment
+JAVA_HOME = C:\Program Files\Java\jdk1.8.0_202
+# environment
+LC_ALL = C
+# environment
+USERPROFILE = C:\Users\Amirmistik play
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+LOCALAPPDATA = C:\Users\Amirmistik play\AppData\Local
+# environment
+VSCODE_CWD = C:\Users\Amirmistik play\AppData\Local\Programs\Microsoft VS Code
+# environment
+SYSTEMROOT = C:\WINDOWS
+# makefile (from 'makefile', line 32)
+LIBS = $(OPENSSL_LIBS) $(PTHREADS_LIBS) $(PCRE_LIBS) ws2_32.lib user32.lib advapi32.lib gdi32.lib /LTCG /DEBUG
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16852_OVBYJCFJVDRCWABB
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Amirmistik play\AppData\Roaming\Code\CachedData\6d9b74a70ca9c7733b29f0456fd8195364076dda
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\AMIRMI~1\AppData\Local\Temp
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\Amirmistik play\OneDrive
+# makefile
+CURDIR := c:/Users/Amirmistik play/Desktop/bs_ufo/vanitygen-plusplus
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files
+# makefile (from 'makefile', line 22)
+PCRE_INCLUDE = .\third_party\windows\pcre-7.0-lib\include
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 16852
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"ru","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-w64-mingw32
+# makefile (from 'makefile', line 33)
+OBJS = vanitygen.obj oclvanitygen.obj oclengine.obj oclvanityminer.obj keyconv.obj pattern.obj util.obj winglue.obj groestl.obj sha3.obj ed25519.obj stellar.o base32.o crc16.o
+# environment
+ANDROID_HOME = C:\Users\Amirmistik play\AppData\Local\Android\Sdk
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\Amirmistik play
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = c:\mingw\bin;c:\mingw\libexec\gcc\x86_64-w64-mingw32\12.1.0;C:\Users\Amirmistik play\gcc\bin;C:\Users\Amirmistik play\gcc\libexec\gcc\x86_64-w64-mingw32\10.3.0;c:\users\Amirmistik play\gcc\libexec\gcc\x86_64-w64-mingw32\12.1.0;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Users\Amirmistik play\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Amirmistik play\AppData\Local\Programs\Python\Python37-32\;C:\Users\Amirmistik play\AppData\Local\Microsoft\WindowsApps;C:\Users\Amirmistik play\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Amirmistik play\.dotnet\tools;C:\Users\Amirmistik play\AppData\Local\GitHubDesktop\bin;C:\Users\Amirmistik play\AppData\Roaming\npm;C:\Users\Amirmistik play\AppData\Local\Programs\Fiddler;C:\Users\Amirmistik play\.dotnet\tools
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+COMPUTERNAME = DESKTOP-SKM5L43
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# environment
+LOGONSERVER = \\DESKTOP-SKM5L43
+# makefile (from 'makefile', line 6)
+OPENCL_INCLUDE = $(OPENCL_DIR)\include
+# environment
+USERNAME = Amirmistik play
+# makefile (from 'makefile', line 11)
+OPENSSL_INCLUDE = .\third_party\windows\openssl-1.1\x86\include
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# makefile (from 'makefile', line 30)
+CFLAGS_BASE = /D_WIN32 /DPTW32_STATIC_LIB /DHAVE_STRUCT_TIMESPEC /I$(PTHREADS_INCLUDE) /I$(PCRE_INCLUDE) /I$(OPENSSL_INCLUDE) /I$(OPENCL_INCLUDE) /Ox /Zi
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = DESKTOP-SKM5L43
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+# environment
+OS = Windows_NT
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from 'makefile', line 12)
+OPENSSL_LIBS = .\third_party\windows\openssl-1.1\x86\lib\libcrypto.lib
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-SKM5L43
+# environment
+NUMBER_OF_PROCESSORS = 4
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\Amirmistik play\AppData\Roaming
+# makefile (from 'makefile', line 31)
+CFLAGS = $(CFLAGS_BASE) /GL
+# environment
+HOMEDRIVE = C:
+# makefile (from 'makefile', line 17)
+PTHREADS_INCLUDE = .\third_party\windows\pthread\Pre-built.2\include
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# makefile (from 'makefile', line 7)
+OPENCL_LIBS = $(OPENCL_DIR)\lib\Win32\OpenCL.lib
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# makefile (from 'makefile', line 5)
+OPENCL_DIR = "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0"
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# makefile (from 'makefile', line 18)
+PTHREADS_LIBS = .\third_party\windows\pthread\Pre-built.2\lib\x86\pthreadVC2.lib
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\AMIRMI~1\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\1807e0b64df63b251377e60b4184c521-1.70.1-main-sock
+# makefile (from 'makefile', line 23)
+PCRE_LIBS = .\third_party\windows\pcre-7.0-lib\lib\pcre.lib
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = 9e09
+# makefile (from 'makefile', line 1)
+CC = cl
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
+# variable set hash-table stats:
+# Load=106/1024=10%, Rehash=0, Collisions=11/132=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key c:/Users/Amirmistik play/Desktop/bs_ufo/vanitygen-plusplus, mtime 1660677437): 52 files, no impossibilities.
+
+# 52 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+base32.obj:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+crc16.obj:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+pattern.obj:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: vanitygen++.exe oclvanitygen++.exe
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+keyconv.exe: keyconv.obj util.obj winglue.obj groestl.obj sha3.obj
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 47):
+	link /nologo /out:$@ $** $(LIBS)
+
+# Not a target:
+keyconv.obj:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+sha3.obj:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+oclvanityminer.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+oclvanitygen.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ed25519.obj:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-17 00:30:12
+#  File has been updated.
+#  Successfully updated.
+
+oclvanityminer.exe: oclvanityminer.obj oclengine.obj pattern.obj util.obj winglue.obj groestl.obj sha3.obj
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 44):
+	link /nologo /out:$@ $** $(LIBS) $(OPENCL_LIBS) $(CURL_LIBS)
+
+oclvanityminer.obj: oclvanityminer.c
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 59):
+	@$(CC) /nologo $(CFLAGS_BASE) $(CURL_INCLUDE) /c /Tpoclvanityminer.c /Fo
+
+# Not a target:
+util.obj:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+oclvanitygen++.exe: oclvanitygen.obj oclengine.obj pattern.obj util.obj winglue.obj groestl.obj sha3.obj
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 41):
+	link /nologo /out:$@ $** $(LIBS) $(OPENCL_LIBS)
+
+oclvanitygen.obj: oclvanitygen.c
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 56):
+	@$(CC) /nologo $(CFLAGS_BASE) /c /Tpoclvanitygen.c /Fo$@
+
+# Not a target:
+oclengine.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+oclengine.obj: oclengine.c
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 53):
+	@$(CC) /nologo $(CFLAGS_BASE) /c /Tpoclengine.c /Fo$@
+
+# Not a target:
+stellar.obj:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 62):
+	del vanitygen++.exe oclvanitygen++.exe oclvanityminer.exe keyconv.exe $(OBJS)
+
+vanitygen++.exe: vanitygen.obj pattern.obj util.obj winglue.obj groestl.obj sha3.obj ed25519.obj stellar.obj base32.obj crc16.obj
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 38):
+	link /nologo /out:$@ $** $(LIBS)
+
+# Not a target:
+vanitygen.obj:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+winglue.obj:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.c.obj:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 50):
+	@$(CC) /nologo $(CFLAGS) /c /Tp$< /Fo$@
+
+# Not a target:
+groestl.obj:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=27/1024=3%, Rehash=0, Collisions=0/77=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 75 / storage = 815 B / avg = 10 B
+# current buf: size = 8162 B / used = 815 B / count = 75 / avg = 10 B
+
+# strcache performance: lookups = 112 / hit rate = 33%
+# hash-table stats:
+# Load=75/8192=1%, Rehash=0, Collisions=1/112=1%
+# Finished Make data base on Wed Aug 17 00:39:54 2022
+
+ 

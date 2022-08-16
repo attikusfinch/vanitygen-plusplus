@@ -1,0 +1,28 @@
+make.exe --dry-run --keep-going --print-directory
+make: Entering directory 'c:/Users/Amirmistik play/Desktop/bs_ufo/vanitygen-plusplus'
+ 
+make: *** No rule to make target 'vanitygen.obj', needed by 'vanitygen++.exe'.
+
+make: *** No rule to make target 'pattern.obj', needed by 'vanitygen++.exe'.
+
+make: *** No rule to make target 'util.obj', needed by 'vanitygen++.exe'.
+
+make: *** No rule to make target 'winglue.obj', needed by 'vanitygen++.exe'.
+
+make: *** No rule to make target 'groestl.obj', needed by 'vanitygen++.exe'.
+
+make: *** No rule to make target 'sha3.obj', needed by 'vanitygen++.exe'.
+make: *** No rule to make target 'ed25519.obj', needed by 'vanitygen++.exe'.
+
+make: *** No rule to make target 'stellar.obj', needed by 'vanitygen++.exe'.
+
+make: *** No rule to make target 'base32.obj', needed by 'vanitygen++.exe'.
+
+make: *** No rule to make target 'crc16.obj', needed by 'vanitygen++.exe'.
+
+cl /nologo /D_WIN32 /DPTW32_STATIC_LIB /DHAVE_STRUCT_TIMESPEC /I.\third_party\windows\pthread\Pre-built.2\include /I.\third_party\windows\pcre-7.0-lib\include /I.\third_party\windows\openssl-1.1\x86\include /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0"\include /Ox /Zi /c /Tpoclvanitygen.c /Fooclvanitygen.obj
+ 
+cl /nologo /D_WIN32 /DPTW32_STATIC_LIB /DHAVE_STRUCT_TIMESPEC /I.\third_party\windows\pthread\Pre-built.2\include /I.\third_party\windows\pcre-7.0-lib\include /I.\third_party\windows\openssl-1.1\x86\include /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0"\include /Ox /Zi /c /Tpoclengine.c /Fooclengine.obj
+ 
+make: Leaving directory 'c:/Users/Amirmistik play/Desktop/bs_ufo/vanitygen-plusplus'
+ 
