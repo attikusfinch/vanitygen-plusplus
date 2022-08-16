@@ -1,5 +1,5 @@
 # Vanitygen plus plus
-Vanity address generator for BTC, ETH, LTC, etc (more than 100 crypto currencies).
+Vanity address generator for BTC, ETH, LTC, UFO, etc (more than 100 crypto currencies).
 
 # Usage
 List all supported crypto currencies:
@@ -8,6 +8,7 @@ $ ./vanitygen++ -C LIST
 ETH : Ethereum : 0x
 BTC : Bitcoin : 1
 LTC : Litecoin : L
+UFO : Uniform Fiscal Object : uf
 ...... (skip many output)
 ```
 
