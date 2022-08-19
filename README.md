@@ -8,7 +8,8 @@ $ ./vanitygen++ -C LIST
 ETH : Ethereum : 0x
 BTC : Bitcoin : 1
 LTC : Litecoin : L
-UFO : Uniform Fiscal Object : uf
+UFO : Uniform Fiscal Object : U
+UFOL : Uniform Fiscal Object Legacy: C
 ...... (skip many output)
 ```
 
@@ -58,6 +59,12 @@ Difficulty: 16777216
 ETH Pattern: 0x999999
 ETH Address: 0x999999188b45BcfA499Ff1bDc041eE21cc890B16
 ETH Privkey: 0xdb3813534c0c9595f9b8b35d6f544827065b33930ae42c38a9d7ce41a1d74669
+```
+
+Generate UFOL vanity address:
+```
+$ ./vanitygen++ -C UFOL CCuser
+UFOL Pattern: CCuser
 ```
 
 If you have OpenCL-compatible GPU, please use `oclvanitygen++`, it's faster.
